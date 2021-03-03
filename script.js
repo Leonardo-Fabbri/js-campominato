@@ -18,11 +18,11 @@ console.log(arrayBombe.length); /* mostrami nella console i numeri random delle 
 
 var numeriUtente=prompt("inserisci numero") /* chiedo all'utente di inserire i numeri*/
 
-/*cicla fino a 84 volte e fino a che il numero inserito dal giocatore è diverso dal array random:*/
+/*cicla fino a 84 volte e fino a che i numeri inseriti dal giocatore sono diversi dal array random:*/
  while ((arrayNumeriUtente.length < (max-numBombe)) && (arrayBombe, numeriUtente)== false) { 
-     /*se il numero inserito dall'utente è = a un numero dell'array random sei morto*/
+     /*se il numero inserito dall'utente è = a un numero dell'array random sei morto random=bomba!!!!*/
      if (isInArray(arrayBombe, numeroUtente)){
-      alert("hai perso");
+      alert("hai perso"); 
     }else if (isInArray())
 
 
